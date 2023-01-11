@@ -16,6 +16,9 @@ repositories {
 }
 
 dependencies { 
+    // https://mvnrepository.com/artifact/no.tornado/tornadofx
+    implementation("no.tornado:tornadofx:1.7.20")
+
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
 }
